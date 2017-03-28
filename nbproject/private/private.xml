@@ -3,11 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/src/java/dbHelpers/dbConn.properties</file>
-            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/web/read.jsp</file>
+            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/src/java/controller/AddServlet.java</file>
+            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/web/add.jsp</file>
+            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/src/java/dbHelpers/DeleteQuery.java</file>
             <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/web/update.jsp</file>
+            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/web/read.jsp</file>
             <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/src/java/dbHelpers/ReadQuery.java</file>
-            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/src/java/model/Dogs.java</file>
+            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/src/java/dbHelpers/AddQuery.java</file>
+            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/src/java/controller/AddForm.java</file>
+            <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/src/java/controller/DeleteServlet.java</file>
             <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/web/index.jsp</file>
             <file>file:/Users/baileykrebs/NetBeansProjects/dogsApp/src/java/controller/Read.java</file>
         </group>

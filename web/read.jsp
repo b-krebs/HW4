@@ -5,6 +5,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Lucky Pawz Dogs</title>
+        <link rel = "stylesheet"
+   type = "text/css"
+   href = "readStyle.css" />
     </head>
     
     <% String table= (String) request.getAttribute("table"); %>
@@ -16,7 +19,8 @@
         
         <%= table %>
         
-        <a href="add.jsp">Add A New Dog</a>
+        <br><br>
+        <a href="add">Add A New Dog</a>
         
         
     </body>

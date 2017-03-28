@@ -5,6 +5,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Lucky Pawz Dogs</title>
+        <link rel = "stylesheet"
+   type = "text/css"
+   href = "readStyle.css" />
     </head>
     <body>
         <h1>Lucky Pawz Dogs</h1>

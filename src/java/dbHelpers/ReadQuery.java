@@ -69,6 +69,34 @@ public class ReadQuery {
             String table="";
             table += "<table border=1>";
             
+            table +="<tr id=topRow>";
+               
+                table+="<th>";
+                    table+="ID";
+                table+="</th>";
+                
+                table+="<th>";
+                    table+="Name";
+                table+="</th>";
+                
+                table+="<th>";
+                    table+="Breed";
+                table+="</th>";
+                
+                table+="<th>";
+                    table+="Gender";
+                table+="</th>";
+                
+                table+="<th>";
+                    table+="Age";
+                table+="</th>";
+                
+                table+="<th>";
+                table+=" ";
+                table+="</th>";
+                    
+               table +="</tr>";
+            
          try {   
             while(this.results.next()){
                 
@@ -80,8 +108,11 @@ public class ReadQuery {
                 dog.setAge(this.results.getInt("age"));
                 
                 
-                table += "<tr>";
+               
+               
+                table += "<tr id=bRows>";
                 
+                       
                     table += "<td>";
                         table += dog.getDogID();  
                     table +="</td>";
@@ -101,6 +132,11 @@ public class ReadQuery {
                     table += "<td>";
                         table += dog.getAge();  
                     table +="</td>";
+                    
+                    table+="<td>";
+                        table +="<a href=delete?dogID=" + dog.getDogID() + "> Delete </a>";
+                        
+                    table +="</td>";           
                 
                 table +="</tr>";
             }
