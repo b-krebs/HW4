@@ -8,12 +8,27 @@
         <title>Add A New Dog</title>
         <link rel = "stylesheet"
    type = "text/css"
-   href = "addStyle.css" />
+   href = "css/inputStyle.css" />
     </head>
     <body>
+        
+        <div class="wrap">    
+     
+            <!--Header-->
+            
+            <%@ include file="includes/header.jsp" %>
+            
+            <!--Menu-->
+            
+            <%@ include file="includes/menu.jsp" %>
+     
+        <div class="main">
+        
+        
+        
         <h1>Add A New Dog</h1>
         <form name="addForm" action="addDog" method="get">
-            <table>
+            <table class="add">
                 <tbody>
                     
                     <tr>
@@ -48,6 +63,13 @@
         </form>
         
      
+         </div><!--end main--> 
+        
+        <!--Footer-->
+        
+        <%@ include file="includes/footer.jsp" %>
+      
+ </div><!-- end wrap-->
        
     </body>
 </html>

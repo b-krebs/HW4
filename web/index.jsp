@@ -7,13 +7,29 @@
         <title>Lucky Pawz Dogs</title>
         <link rel = "stylesheet"
    type = "text/css"
-   href = "readStyle.css" />
+   href = "css/readStyle.css" />
     </head>
-    <body>
+<body>
+ <div class="wrap">    
+     
+            <!--Header-->
+            
+            <%@ include file="includes/header.jsp" %>
+            
+            <!--Menu-->
+            
+            <%@ include file="includes/menu.jsp" %>
+     
+        <div class="main">
         <h1>Lucky Pawz Dogs</h1>
         
-        <a href="read">View All Dogs</a>
-      
         
-    </body>
+        </div><!--end main--> 
+        
+        <!--Footer-->
+        
+        <%@ include file="includes/footer.jsp" %>
+      
+ </div><!-- end wrap-->
+</body>
 </html>

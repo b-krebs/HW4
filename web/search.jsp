@@ -1,20 +1,18 @@
 
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Lucky Pawz Dogs</title>
+        <title>Search</title>
+        
         <link rel = "stylesheet"
    type = "text/css"
-   href="css/readStyle.css" />
-    </head>
-    
-    <% String table= (String) request.getAttribute("table"); %>
-    
-    
-    <body>
+   href = "css/inputStyle.css" />
         
+    </head>
+    <body>
         <div class="wrap">    
      
             <!--Header-->
@@ -28,11 +26,18 @@
         <div class="main">
         
         
-        <h1>Lucky Pawz Dogs</h1>
+        <h1>Search Dogs</h1>
         
-        
-        <%= table %>
-        
+        <form name="searchForm" action="search" method="get">
+            
+            <input type="text" name="searchVal" value="" />
+            
+            <br><br>
+            
+            <input type="submit" name="submit" value="Search" />
+                   
+                   
+        </form>
         
         
         </div><!--end main--> 
@@ -42,5 +47,7 @@
         <%@ include file="includes/footer.jsp" %>
       
  </div><!-- end wrap-->
+   
+    
     </body>
 </html>
